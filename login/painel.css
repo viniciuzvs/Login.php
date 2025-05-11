@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"open sans", sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 10px;
+    background: url("https://wallpapers.com/images/hd/pc-background-auy4d6ol8eianisk.jpg");
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+p{
+    font-family: 1.5rem;
+    color: #ffffff;
+}
+
+a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
